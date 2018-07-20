@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+  - name: Ansible create file with content 
+    copy:
+      dest: "/tmp/remote_server.txt"
+      content: |
+        dog1
+        tiger

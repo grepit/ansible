@@ -1,0 +1,9 @@
+--- 
+all: 
+  hosts: 
+    xmp: 
+      ansible_connection: ssh
+      ansible_host: "68.66.224.12"
+      ansible_port: 7822
+      ansible_user: nanoseco
+

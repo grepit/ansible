@@ -1,0 +1,3 @@
+[targets]
+localhost              ansible_connection=local
+192.168.0.1            ansible_connection=ssh        ansible_user=nanosecond            ansible_port=7822
